@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Test
+public class getTemp
 {
   public static void main(String[] args)
   {
