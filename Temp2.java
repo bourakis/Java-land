@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class getTempFloat
+public class Temp2
 {
   public static void main(String[] args)
   {
