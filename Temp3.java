@@ -1,4 +1,3 @@
-package getTempFloat;
 import java.util.Scanner;
 
 public class getTempFloat 
@@ -6,7 +5,7 @@ public class getTempFloat
   public static void main(String[] args) 
   {	
     Scanner temp = new Scanner(System.in); 
-    System.out.println("Enter temperature");
+    System.out.print("Enter temperature: ");
 
     float get_temp = Float.parseFloat(temp.nextLine());
 
@@ -20,7 +19,7 @@ public class getTempFloat
     }
     else if(get_temp >= 36.8 && get_temp <= 40)
     {
-      System.out.println("Exeiw pyreto!");
+      System.out.println("Exeis pyreto!");
     }
     else if(get_temp > 40)
     {
