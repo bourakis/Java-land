@@ -84,6 +84,8 @@ class Website
 }
 ```
 
+Τοποθετήστε τις παρακάτω γραμμές κώδικα μέσα στην main function και εκτελέστε το πρόγραμμά σας.
+
 ```java
     Website x = new Website("Bourakis Home Page", "https://bourakis.com", "Crappy things!");
     x.print();
