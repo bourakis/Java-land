@@ -42,7 +42,7 @@ class Website
 }
 ```
 
-θα το χρησιμοποιήσουμε ως εξής:
+θα το χρησιμοποιήσουμε ως εξής τοποθετώντας τον παρακάτω κώδικα μέσα στην main function:
 
 ```java
     Website x = new Website("Bourakis Home Page", "https://bourakis.com", "Crappy things!");
@@ -76,7 +76,26 @@ class Website
         url  = "";
         description = "";
     }
+    
+    public void print()
+    {
+        System.out.println("Name: " + name + " Url: " + url + " Description: " + description);
+    }
 }
+```
+
+```java
+    Website x = new Website("Bourakis Home Page", "https://bourakis.com", "Crappy things!");
+    x.print();
+    
+    Website y = new Website();
+    y.print();
+```
+
+Αποτέλεσμα:
+```
+Name: Bourakis Home Page Url: https://bourakis.com Description: Crappy things!
+Name:  Url:  Description: 
 ```
 
 Αυτό καλείται ως μέθοδος υπερφόρτωσης ή πολυμορφισμού. Ο πολυμορφισμός είναι ένα χαρακτηριστικό των αντικειμενοστρεφών γλωσσών που αφήνουν ένα όνομα να αναφέρεται σε διαφορετικές μεθόδους, εξαρτώμενο από το περιεχόμενό τους. Το σημαντικό στο περιεχόμενο είναι ο τύπος και ο αριθμός των ορισμάτων της μεθόδου. Σ’αυτήν την περίπτωση χρησιμοποιούμε την πρώτη έκδοση της μεθόδου αν έχουμε τρία ορίσματα και την δεύτερη έκδοση εαν δεν έχουμε καθόλου ορίσματα. Αν έχεις ένα, δύο ή τέσσερα ορίσματα string στη δομή, ή ορίσματα που δεν είναι string, ο compiler δημιουργεί ένα λάθος γιατί δεν έχει μια μέθοδο που να ταιριάζει με τη μέθοδο που ζητήθηκε.
