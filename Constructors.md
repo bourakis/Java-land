@@ -111,3 +111,30 @@ Name:  Url:  Description:
 Υπάρχουν δύο τύποι των constructors,
 1. Default constructor (χωρίς παραμέτρους)
 2. Με παραμέτρους
+
+### Default Constructor
+Default constructor είναι αυτός που δεν διαθέτει παραμέτρους. Στο παρακάτω παράδειγμα θα δημιουργήσουμε έναν constructor που δεν διαθέτει κάποια παράμετρο (no-arg). 
+
+```java
+class Bike
+{  
+    //creating a default constructor  
+    Bike()
+    {
+        System.out.println("Bike is created");
+    }  
+}  
+```
+
+```java  
+public static void main(String args[])
+{  
+    //calling a default constructor  
+    Bike b = new Bike();  
+}  
+```
+
+Αποτέλεσμα:
+```
+Bike is created
+```
