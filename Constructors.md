@@ -28,11 +28,16 @@ class Website
     String url;
     String description;
 
-    public website(String n, String u, String d) 
+    public Website(String n, String u, String d) 
     {
         name = n; 
         url  = u;
         description = d;
+    }
+    
+    public void print()
+    {
+        System.out.println("Name: " + name + " Url: " + url + " Description: " + description);
     }
 }
 ```
@@ -40,10 +45,14 @@ class Website
 θα το χρησιμοποιήσουμε ως εξής:
 
 ```java
-    Website x = new Website("Cafe Au Lait", "http://metalab.unc.edu/javafaq/", "Really cool!");
+    Website x = new Website("Bourakis Home Page", "https://bourakis.com", "Crappy things!");
     x.print();
 ```
 
+Αποτέλεσμα:
+```
+Name: Bourakis Home Page Url: https://bourakis.com Description: Crappy things!
+```
 
 Όμως τι θα συμβεί εαν θελήσουμε να δημιουργήσουμε ένα Website του οποίου μερικές φορές γνωρίζουμε το url, το όνομα και την περιγραφή και μερικές φορές δεν τα γνωρίζουμε; Υπάρχει τρόπος να δημιουργήσουμε δύο constructors και ανάλογα με τις παραμέτρους που θέτουμε, να καλείται και ο αντίστοιχος constructor:
 
