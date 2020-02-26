@@ -27,7 +27,7 @@ public class Calculator
 	
 	public static void main(String []args) 
 	{
-		int result;
+	    int result;
 		
 	    Calculator calc1 = new Calculator(10,5);
 	     
