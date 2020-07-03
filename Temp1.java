@@ -15,7 +15,7 @@ public class Temp1
     }
     else
     {
-      System.out.println("Houston we got a problem!");
+      System.out.println("Houston we have a problem!");
     }
   }
 }
