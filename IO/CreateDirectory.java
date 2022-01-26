@@ -1,5 +1,6 @@
 import java.io.File;
 import java.util.Scanner;
+
 public class CreateDirectory 
 {
    public static void main(String args[]) 
