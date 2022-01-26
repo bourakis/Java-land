@@ -56,6 +56,6 @@ public static void main(String[] args)
 
 Αποτέλεσμα:
 ```
-13
-10.56
+int: 13
+double: 10.56
 ```
